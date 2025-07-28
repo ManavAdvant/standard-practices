@@ -8,7 +8,7 @@ interface AuthContextType {
   user: User | null;
   isLoading: boolean;
   isSignedIn: boolean;
-  clerkUser: any;
+  clerkUser: unknown;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);

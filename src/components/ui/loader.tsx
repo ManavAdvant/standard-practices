@@ -1,5 +1,5 @@
 import React from 'react';
-import { cn } from '@/utils/time';
+import { cn } from '@/utils';
 
 interface LoaderProps {
   size?: 'sm' | 'md' | 'lg';
